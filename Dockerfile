@@ -1,4 +1,4 @@
-FROM python:3.5.2-slim
+FROM python:3.7.4
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY requirements.txt /usr/src/app

@@ -7,5 +7,5 @@ apt-get install -y postgresql python-psycopg2 libpq-dev cython && \
 pip install --upgrade pip && pip install -r requirements.txt
 COPY . /usr/src/app
 EXPOSE 8080
-ENTRYPOINT [“python3”]
+ENTRYPOINT [“python”]
 CMD python ./hello.py
